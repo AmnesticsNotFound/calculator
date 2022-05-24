@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scuffed Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class = "general">Simple(Scuffed) Calculator
+      <div class = "body">
+       <input type = "text" class = "text" id = "txt" value = "0">
+        
+        <div class = "buttonBox">
+            <div class = "buttons1">
+            <button type = "button" class = "buttons C" onClick = "clearr()">C</button>
+            <button type = "button" class = "buttons num" value = "0"  onClick = "input(value)" style>0</button>
+            <button type = "button" class = "buttons cus" value = " + " onClick = "input(value)">+</button>
+            <button type = "button" class = "buttons cus" value = " - " onClick = "input(value)">-</button>
+            </div>
+            <div class = "buttons2">
+            <button type = "button" class = "buttons num" value = "9" onClick = "input(value)">9</button>
+            <button type = "button" class = "buttons num" value = "8" onClick = "input(value)">8</button>
+            <button type = "button" class = "buttons num" value = "7" onClick = "input(value)">7</button>
+            <button type = "button" class = "buttons cus" value = " * " onClick = "input(value)">*</button>
+            </div>
+            <div class = "buttons3">
+            <button type = "button" class = "buttons num" value = "6" onClick = "input(value)">6</button>
+            <button type = "button" class = "buttons num" value = "5" onClick = "input(value)">5</button>
+            <button type = "button" class = "buttons num" value = "4" onClick = "input(value)">4</button>
+            <button type = "button" class = "buttons cus" value = " / " onClick = "input(value)" style = "width:21px">/</button>
+            
+            </div>
+
+            <div class = "buttons4">
+            <button type = "button" class = "buttons num" value = "3" onClick = "input(value)">3</button>
+            <button type = "button" class = "buttons num" value = "2" onClick = "input(value)">2</button>
+            <button type = "button" class = "buttons num"  value = "1" onClick = "input(value)">1</button>
+            <button type = "button" class = "buttons cus"  onClick = "operate(document.querySelector('.text').value)" style = "width:21px">=</button>
+
+        </div>
+        </div>
+        <div class = "error">Please enter a number after an operator</div>
+
+
+
+
+
+
+
+
+      </div>
+      </div>
+	<script src="index.js"></script>
+  </body>
+</html>
