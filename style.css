@@ -1,0 +1,81 @@
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 920px; */
+    /* padding-right: 920px; */
+    border: 1px solid black;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    border-radius: 4px;
+    background-color: rgb(185, 185, 185);
+    width: 118px;
+    
+}
+.text {
+    width: 112px;
+    height: 30px;
+    text-align: right;
+    background-color: #afafe1;
+}
+.buttonBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    margin:3px;
+    
+}
+.buttons:hover {background-color: black}
+
+.buttons:active {
+    background-color: #00ff08;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.buttons1 {
+    display:flex;
+    margin:3px;
+    
+}
+.buttons2 {
+    display:flex;
+    margin:3px;
+}
+
+.buttons3 {
+    display:flex;
+    margin:3px;
+}
+
+.buttons4 {
+    display:flex;
+    margin:3px;
+}
+.error {
+    display:none;
+}
+/*button colors */
+.C {
+    background-color: black;
+    color: rgb(247, 223, 9);
+    border-radius: 8px;
+    margin-left: 3px;
+    margin-right: 1px;
+}
+.num {
+    background-color: rgb(255, 255, 255);
+    color: grey;
+}
+.cus {
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+}
